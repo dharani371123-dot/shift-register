@@ -7,7 +7,7 @@ reg reset;
 reg serial_in;
 wire [3:0] q;
 
-shift_register uut (
+tt_um_shift_register uut (
     .clk(clk),
     .reset(reset),
     .serial_in(serial_in),
