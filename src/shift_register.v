@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module shift_register (
+module tt_um_shift_register (
     input clk,
     input reset,
     input serial_in,
