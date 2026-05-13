@@ -11,11 +11,11 @@ project:
   tiles: "1x1"
 
   # Top module name
-  top_module:  "shift_register"
+  top_module:  "tt_um_shift_register"
 
   # Source files
   source_files:
-    - "shift_register.v"
+    - "tt_um_shift_register.v"
 
 # Pinout
 pinout:
