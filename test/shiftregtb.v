@@ -31,9 +31,5 @@ begin
 
     #50 $finish;
 end
-initial begin
-$fsdbDumpfile("shiftreg.fsdb");
-$fsdbDumpvars(0,tb_shift_register);
-end
 endmodule
 
